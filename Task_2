@@ -29,7 +29,8 @@
    if n % 2 == 1:
     print(n+1)
     
- 5)
+ 5)x = float(input())
+   print(x - int(x))
  
  
  6)x = float(input())
