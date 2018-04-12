@@ -1,0 +1,51 @@
+Задание 8
+Оформляем в функции наши задания на уроке:
+1) Пишем функцию, которая попросит пользователя ввести слово (строка
+без пробелов в середине, а вначале и в конце пробелы могут быть). Пока
+он не введёт правильно, просите его ввести. Функция возвращает
+введённое слово
+2) Пишем функцию, которая попросит ввести число. Пока он не введёт
+правильно, просите его ввести. Функция возвращает введённое число.
+
+1) def fun():                                                                                              
+    while True:                                                                                         
+        word = input("Enter string: ")                                                                  
+        try:                                                                                            
+            word = str(word)                                                                            
+            word = word.strip()                                                                         
+            if ' ' in word:                                                                             
+                print('Thw word contains space in the middle, please entrer another word')              
+                continue                                                                                
+        except ValueError:                                                                              
+            pass                                                                                        
+        else:                                                                                           
+            break                                                                                       
+    return word                                                                                         
+                                                                                                        
+print(fun())                                                                                            
+
+
+2) def fun():                                            
+    while True:                                       
+        number = input("Enter number: ")              
+        try:                                          
+            number = float(number)                    
+                                                      
+        except ValueError:                            
+            pass                                      
+        else:                                         
+            break                                     
+    return number                                     
+                                                      
+print(fun())                                          
+
+
+
+
+
+
+
+
+
+
+
