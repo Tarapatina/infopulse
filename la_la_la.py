@@ -13,5 +13,5 @@ def lalala_function(Y=3, X=3, Z=0):
         s += '!'
     return s
 
-
-print(lalala_function())
+if __name__ == "__main__":
+    print(lalala_function())
