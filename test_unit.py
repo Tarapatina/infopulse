@@ -11,3 +11,4 @@ class DistanceTests(unittest.TestCase):
 #if__name__=='__main__':
  #   unittest.main()
 
+print (DistanceTests)
