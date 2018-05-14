@@ -12,3 +12,4 @@ class DistanceTests(unittest.TestCase):
  #   unittest.main()
 
 print (DistanceTests)
+
