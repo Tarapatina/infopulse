@@ -1,8 +1,3 @@
 [
-  "test_pytest_rest.py::test_create_book_positive[{'title': 'sdgfs', 'author': 'sdfds     '}]",
-  "test_pytest_rest.py::test_create_book_positive[{'title': '$%^&%&', 'author': 'sdfds'}]",
-  "test_pytest_rest.py::test_create_book_positive[{'title': '234234', 'author': '243324'}]",
-  "test_pytest_rest.py::test_update_book[{'title': 'sdgfs', 'author': 'sdfds     '}]",
-  "test_pytest_rest.py::test_update_book[{'title': '$%^&%&', 'author': 'sdfds'}]",
-  "test_pytest_rest.py::test_update_book[{'title': '234234', 'author': '243324'}]"
+  "first-test_selenium.py::UntitledTestCase::test_untitled_test_case"
 ]

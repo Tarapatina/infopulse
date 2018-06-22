@@ -1,4 +1,5 @@
 {
+  "first-test_selenium.py::UntitledTestCase::test_untitled_test_case": true,
   "test_pytest_rest.py::test_create_book_positive": true,
   "test_pytest_rest.py::test_update_book": true,
   "test_rest_api_book.py": true,

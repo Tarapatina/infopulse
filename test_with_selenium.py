@@ -1,6 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 import unittest, time, re
 from tqdm import tqdm
 
